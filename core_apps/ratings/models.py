@@ -1,9 +1,11 @@
-from django.db import models
 from django.contrib.auth import get_user_model
+from django.db import models
+
 from core_apps.articles.models import Article
 from core_apps.common.models import TimeStampedModel
 
 User = get_user_model()
+
 
 class Rating(TimeStampedModel):
     RATING_CHOICES = [
@@ -24,6 +26,6 @@ class Rating(TimeStampedModel):
         unique_together = ("article", "user")
         verbose_name = "Rating"
         verbose_name_plural = "Ratings"
-    
+
     def __str__(self):
         return f"{self.user.first_name} rated {self.article.title} as {self.get_rating_display()}"

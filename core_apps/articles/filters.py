@@ -1,5 +1,7 @@
 import django_filters as filters
+
 from core_apps.articles.models import Article
+
 
 class ArticleFilter(filters.FilterSet):
     author = filters.CharFilter(
