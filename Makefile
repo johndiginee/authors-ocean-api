@@ -57,3 +57,6 @@ search-index-create:
 
 search-index-populate:
 	docker compose -f local.yml exec api python3 manage.py search_index --populate
+
+coverage:
+	docker compose -f local.yml run --rm api pytest -p no:warnings --cov=. -v

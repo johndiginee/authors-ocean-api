@@ -31,7 +31,7 @@ class UserSerializer(serializers.ModelSerializer):
         ]
 
     def to_representation(self, instance):
-        to_representation = super(UserSerializer, self).to_representation(instance)
+        representation = super(UserSerializer, self).to_representation(instance)
         if instance.is_superuser:
             representation["admin"] = True
         return representation

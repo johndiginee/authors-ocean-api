@@ -18,9 +18,9 @@ class CustomUserManager(BaseUserManager):
     def create_user(self, first_name, last_name, email, password, **extrafields):
         """Creating normal user."""
         if not first_name:
-            raise ValidationError(_("Users must have a first name."))
+            raise ValueError(_("Users must have a first name."))
         if not last_name:
-            raise ValidationError(_("Users must have a last name."))
+            raise ValueError(_("Users must have a last name."))
         if email:
             email = self.normalize_email(email)
             self.email_validator(email)
