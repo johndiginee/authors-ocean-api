@@ -60,3 +60,6 @@ search-index-populate:
 
 coverage:
 	docker compose -f local.yml run --rm api pytest -p no:warnings --cov=. -v
+
+check-deploy:
+	docker compose -f local.yml run --rm api python3 manage.py check --deploy
