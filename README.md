@@ -58,8 +58,8 @@
  * Postgres
  * Whitenoise
  * SSL Certificates (Letsencrypt)
- * Digital Ocean (Infrastructure-as-a- Service - IaaS for Ubuntu Server
- * Check requirements for more
+ * Digital Ocean (Infrastructure-as-a-Service - IaaS for Ubuntu Server
+ * Check the requirements repo for more!
 
  ## API Documentation
  [https://www.authorsocean.com.ng/redoc/](https://www.authorsocean.com.ng/redoc/)
