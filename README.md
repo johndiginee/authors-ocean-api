@@ -1,6 +1,68 @@
 # Authors Ocean API
- Authors Ocean is a social publishing platform functional API built with Django, Django Rest Framework, Docker, Celery, NGINX, Redis, Flower, Portainer, Nginx Proxy Manager, Elasticsearch, and more.
+ Authors Ocean is a clone of major functionalities of Medium.com (Backend API).
 
-## Packages
-* Local pip install -r requirements/local.txt
-* Production pip install -r requirements/local.txt
+## API Features
+
+### User Authentication
+* Register user
+* Verify user email
+* Login user
+* Change password
+* Password reset request
+* Password reset confirmation
+* Currently logged in user
+* Refresh token
+* Logout user
+
+### User Profile
+* All user profiles
+* Current user profile
+* Update user profile
+* Follow a user
+* All my followers
+* Unfollow a user
+
+### Aricle
+* Create article
+* All articles
+* Single article
+* Update article
+* Delete article
+* Add article rating
+* Bookmark article
+* Remove bookmark
+* Add clap
+* Remove clap
+* Create response (comment)
+* List all response for article
+* Specific response
+* Update response for aricle
+* Delete response for article
+* Search article (using Elasticsearch)
+
+## Tools
+ * Django
+ * Django Rest Framework
+ * Docker
+ * Celery
+ * NGINX
+ * Redis
+ * Flower
+ * Portainer
+ * Nginx Proxy Manager
+ * Elasticsearch, and more.
+ * JWT
+ * Mailgun (for development)
+ * Mailhog (for production)
+ * Shell Scripts
+ * Postgres
+ * Whitenoise
+ * SSL Certificates (Letsencrypt)
+ * Digital Ocean (Infrastructure-as-a- Service - IaaS for Ubuntu Server
+ * Check requirements for more
+
+ ## API Documentation
+ [https://www.authorsocean.com.ng/redoc/](https://www.authorsocean.com.ng/redoc/)
+
+ ## Authors
+John Diginee - [LinkedIn](https://www.linkedin.com/in/johndiginee/) / [Twitter](http://twitter.com/johndiginee)
