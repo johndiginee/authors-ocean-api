@@ -10,7 +10,7 @@
 * Change password
 * Password reset request
 * Password reset confirmation
-* Currently logged in user
+* Currently logged-in user
 * Refresh token
 * Logout user
 
@@ -22,7 +22,7 @@
 * All my followers
 * Unfollow a user
 
-### Aricle
+### Article
 * Create article
 * All articles
 * Single article
@@ -33,12 +33,12 @@
 * Remove bookmark
 * Add clap
 * Remove clap
-* Create response (comment)
-* List all response for article
+* Create a response (comment)
+* List all responses for the article
 * Specific response
-* Update response for aricle
+* Update response for article
 * Delete response for article
-* Search article (using Elasticsearch)
+* Search articles (using Elasticsearch)
 
 ## Tools
  * Django
