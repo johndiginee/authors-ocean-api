@@ -52,8 +52,8 @@
  * Nginx Proxy Manager
  * Elasticsearch, and more.
  * JWT
- * Mailgun (for development)
- * Mailhog (for production)
+ * Mailgun (for production)
+ * Mailhog (for development)
  * Shell Scripts
  * Postgres
  * Whitenoise
